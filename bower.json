@@ -1,0 +1,24 @@
+{
+  "name": "Wenli Zhang's CV",
+  "version": "1.0.0",
+  "homepage": "http://zhangwenli.com/cv",
+  "authors": [
+    "Wenli Zhang"
+  ],
+  "description": "Web Designer and Developer",
+  "keywords": [
+    "CV",
+    "Web Designer",
+    "Web Developer",
+    "Web Front-end"
+  ],
+  "license": "CC BY 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+

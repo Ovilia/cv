@@ -1,0 +1,69 @@
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+$clr-primary:          #22C3AA;  // green
+$clr-light:            #AEE2D9;  // light green
+$clr-lighter:          #EEF3F0;  // lighter green
+$clr-dark:             #157A6B;  // dark green
+$clr-contrast:         #DB6968;  // red
+$clr-contrast-dark:    #BB5A59;  // dark red
+$clr-def:              #666;
+$clr-def-light:        #CCC;
+$clr-def-lighter:      #EFEFEF;
+$clr-def-lightest:     #FFF;
+$clr-def-dark:         #444;
+$clr-def-darker:       #333;
+$clr-def-darkest:      #000;
+
+
+
+
+
+// Page
+$clr-page-back: $clr-def-lighter;
+$clr-page-footer-back: $clr-def-darkest;
+
+
+
+
+
+// Links
+$clr-link:          $clr-contrast;
+$clr-link--active:  $clr-def;
+$clr-link--hover:   $clr-contrast-dark;
+$clr-link--visited: $clr-def;
+
+
+
+
+
+// Text
+$clr-text: $clr-def;
+
+
+
+
+
+// Title
+$clr-h1:    $clr-primary;
+$clr-h2-6:  $clr-def-dark;
+
+
+
+
+
+// Quotes
+$clr-qt:            $clr-def-dark;
+$clr-qt-back:       $clr-light;
+$clr-license-back:  $clr-lighter;
+$clr-code-back:     $clr-lighter;
+
+
+
+
+// Buttons
+$clr-btn:               $clr-def-lighter;
+$clr-btn-back:          $clr-link;
+$clr-btn-back--hover:   $clr-link--hover;
+$clr-btn-back--visited: $clr-link--visited

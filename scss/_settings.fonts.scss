@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    #FONTS
+\*------------------------------------*/
+
+// Families
+$ft-fm--en: Lato;
+$ft-fm--cn: "Microsoft YaHei";
+$ft-fm--local: sans-serif;
+
+$ft-fm-def: $ft-fm--en, $ft-fm--cn, $ft-fm--local;
+
+$ft-fm-code: Consolas, "Courier New", Courier;
+
+
+
+
+
+// Weight
+$ft-wt-def:   400;
+$ft-wt-light: 400;
+$ft-wt-bold:  900;
+
+$ft-wt-h1-6: $ft-wt-bold;
+
+
+
+
+
+// Size
+
+$ft-sz-def:  1.1em;
+$ft-sz-sm:   1em;
+$ft-sz-smer: 0.8em;
+
+$ft-sz-page-title: 4em;
+
+$ft-sz-h1: 3em;
+$ft-sz-h2: 2em;
+$ft-sz-h3: 1.75em;
+$ft-sz-h4: 1.5em;
+$ft-sz-h5: 1.25em;
+$ft-sz-h6: 1.1em;
+
+$ft-sz-qt: 1em;
