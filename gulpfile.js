@@ -13,8 +13,19 @@ gulp.task('compass', function() {
         .pipe(gulp.dest('css'));
 });
 
+gulp.task('vendor', function() {
+    // jQuery
+    gulp.src('./bower_components/jquery/dist/jquery.js')
+        .pipe(gulp.dest('./vendor'));
+    
+    // oriDomi
+    gulp.src('./bower_components/oridomi/oridomi.js**')
+        .pipe(gulp.dest('./vendor'));
+});
+
 gulp.task('default', function() {
     gulp.run('compass');
+    gulp.run('vendor');
 
     gulp.watch([
         './scss/**',

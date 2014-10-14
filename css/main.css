@@ -1,3 +1,26 @@
-/*------------------------------------*\
-    #COLORS
-\*------------------------------------*/
+body {
+  font-family: Lato, "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #22C3AA;
+  overflow-x: hidden;
+}
+
+.page {
+  background: url(../../blog/img/sketch.png);
+  background-color: #EFEFEF;
+  width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 2px #666;
+  min-height: 2000px;
+}
