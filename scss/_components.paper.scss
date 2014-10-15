@@ -1,0 +1,27 @@
+$paper-w: 1000px;
+$paper-p: 20px;
+
+.paper {
+  background: url(../../blog/img/sketch.png);
+  background-color: $clr-page-back;
+  width: $paper-w;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 2px $clr-def;
+  
+  position: fixed;
+  float: left;
+  top: 50px;
+  
+  &.paper__selected {
+    z-index: 100;
+    //left: 200px;
+  }
+  
+  &:not(.paper__selected) {
+    //left: 50px;
+  }
+}
+
+.page {
+  height: 300px;
+}

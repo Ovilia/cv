@@ -13,14 +13,24 @@ body {
 body {
   background-color: #22C3AA;
   overflow-x: hidden;
+  position: relative;
+  height: 2000px;
 }
 
-.page {
+.paper {
   background: url(../../blog/img/sketch.png);
   background-color: #EFEFEF;
   width: 1000px;
-  margin: 50px auto;
   padding: 20px;
   box-shadow: 0px 0px 10px 2px #666;
-  min-height: 2000px;
+  position: fixed;
+  float: left;
+  top: 50px;
+}
+.paper.paper__selected {
+  z-index: 100;
+}
+
+.page {
+  height: 300px;
 }

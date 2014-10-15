@@ -14,13 +14,9 @@ gulp.task('compass', function() {
 });
 
 gulp.task('vendor', function() {
-    // jQuery
-    gulp.src('./bower_components/jquery/dist/jquery.js')
-        .pipe(gulp.dest('./vendor'));
-    
-    // oriDomi
-    gulp.src('./bower_components/oridomi/oridomi.js**')
-        .pipe(gulp.dest('./vendor'));
+    // jInvertScroll
+    //gulp.src('./bower_components/jInvertScroll/dist/js/jquery.jInvertScroll.js')
+    //    .pipe(gulp.dest('./vendor'));
 });
 
 gulp.task('default', function() {
@@ -29,7 +25,9 @@ gulp.task('default', function() {
 
     gulp.watch([
         './scss/**',
-        './img/**'
+        './img/**',
+        './js/**',
+        '*.html'
     ], function(event) {
         gulp.run('compass');
     });

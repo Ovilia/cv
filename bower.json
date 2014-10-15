@@ -21,8 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "oridomi": "~1.1.5",
-    "jquery": "~1.11.1"
   }
 }
 
