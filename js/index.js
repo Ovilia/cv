@@ -47,7 +47,7 @@ function centerPapers() {
 
 // update paper position and transform
 function setPaper() {
-    var top = $(window).scrollTop();
+    /*var top = $(window).scrollTop();
     var id = getSelectedPaper(top);
     var $papers = $('.paper');
     var selected = $papers[id];
@@ -70,7 +70,7 @@ function setPaper() {
         }
     } else {
         console.error('Error selected paper!');
-    }
+    }*/
 }
 
 // get the most likely selected paper according to scroll top

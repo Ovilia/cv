@@ -1,6 +1,10 @@
 $paper-w: 1000px;
 $paper-p: 20px;
 
+.container {
+  perspective: 1000px;
+}
+
 .paper {
   background: url(../../blog/img/sketch.png);
   background-color: $clr-page-back;
@@ -11,6 +15,8 @@ $paper-p: 20px;
   position: fixed;
   float: left;
   top: 50px;
+  
+  -webkit-transform: rotateY(-30deg);
   
   &.paper__selected {
     z-index: 100;
@@ -23,5 +29,6 @@ $paper-p: 20px;
 }
 
 .page {
+  perspective: 1000px;
   height: 300px;
 }

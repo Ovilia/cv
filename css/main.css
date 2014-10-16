@@ -17,6 +17,10 @@ body {
   height: 2000px;
 }
 
+.container {
+  perspective: 1000px;
+}
+
 .paper {
   background: url(../../blog/img/sketch.png);
   background-color: #EFEFEF;
@@ -26,11 +30,13 @@ body {
   position: fixed;
   float: left;
   top: 50px;
+  -webkit-transform: rotateY(-30deg);
 }
 .paper.paper__selected {
   z-index: 100;
 }
 
 .page {
+  perspective: 1000px;
   height: 300px;
 }
