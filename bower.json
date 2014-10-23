@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
+    "pagepiling.js": "~0.0.7"
   }
 }
 

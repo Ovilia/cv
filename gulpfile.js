@@ -14,21 +14,16 @@ gulp.task('compass', function() {
 });
 
 gulp.task('vendor', function() {
-    // jInvertScroll
-    //gulp.src('./bower_components/jInvertScroll/dist/js/jquery.jInvertScroll.js')
-    //    .pipe(gulp.dest('./vendor'));
+    gulp.src(['./bower_components/pagepiling.js/jquery.pagepiling.min.js',
+            './bower_components/pagepiling.js/jquery.pagepiling.css'])
+        .pipe(gulp.dest('./vendor'));
 });
 
 gulp.task('default', function() {
     gulp.run('compass');
     gulp.run('vendor');
 
-    gulp.watch([
-        './scss/**',
-        './img/**',
-        './js/**',
-        '*.html'
-    ], function(event) {
+    gulp.watch('./scss/**', function(event) {
         gulp.run('compass');
     });
 });

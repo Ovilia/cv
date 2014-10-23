@@ -28,14 +28,8 @@ $ft-sz-def:  1.1em;
 $ft-sz-sm:   1em;
 $ft-sz-smer: 0.8em;
 
-$ft-sz-page-title: 4em;
-
-$ft-sz-h1: 3em;
-$ft-sz-h2: 2em;
-$ft-sz-h3: 1.75em;
-$ft-sz-h4: 1.5em;
-$ft-sz-h5: 1.25em;
-$ft-sz-h6: 1.1em;
+$ft-sz: 3.5em, 2em, 1.5em, 1.25em, 1.2em, 1.1em;
+$ft-mg: 0.5em, 0.2em, 0.1em, 0.1em, 0.1em, 0.1em;
 
 $ft-sz-qt: 1em;
 
@@ -47,5 +41,24 @@ $ft-sz-qt: 1em;
 body {
     font-family: $ft-fm-def;
     font-weight: $ft-wt-def;
+    font-size: $ft-sz-def;
+}
+
+
+
+@for $i from 1 through 6 {
+    h#{$i} { 
+        font-size: nth($ft-sz, $i);
+        margin: 0 0 nth($ft-mg, $i) 0;
+        margin-top: 0;
+    }
+}
+
+p {
+    font-size: $ft-sz-def;
+    margin: 0.5em 0;
+}
+
+ul {
     font-size: $ft-sz-def;
 }

@@ -1,0 +1,27 @@
+.row {
+    position: relative;
+    
+    &:after {
+        clear: both;
+    }
+}
+
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: $i / 12 * 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    @for $i from 1 through 12 {
+        .col-#{$i} {
+            width: 100%;
+        }
+    }
+    
+    #pp-nav {
+        display: none;
+    }
+}

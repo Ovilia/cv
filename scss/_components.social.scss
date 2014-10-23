@@ -1,0 +1,85 @@
+#contact-panel {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.social-share-element {
+    width: 40px;
+    height: 40px;
+    background-color: $clr-link;
+    background-image: url('../../blog/img/social.png');
+    transition: 0.5s;
+    display: inline-block;
+    margin-right: 2px;
+    border-bottom: none;
+    border-radius: 20px;
+    
+    &:hover {
+        background-color: $clr-link--hover;
+        border-radius: 5px;
+    }
+    
+    &.social-twitter {
+        background-position: 0 0;
+    }
+    
+    &.social-facebook {
+        background-position: -40px 0;
+    }
+    
+    &.social-google {
+        background-position: -80px 0;
+    }
+    
+    &.social-linkedin {
+        background-position: -120px 0;
+    }
+    
+    &.social-weibo {
+        background-position: -160px 0;
+    }
+    
+    &.social-digg {
+        background-position: 0 40px;
+    }
+    
+    &.social-douban {
+        background-position: -40px 40px;
+    }
+    
+    &.social-reddit {
+        background-position: -80px 40px;
+    }
+    
+    &.social-stumble {
+        background-position: -120px 40px;
+    }
+    
+    &.social-github {
+        background-position: -160px 40px;
+    }
+}
+
+.social-share-text {
+    font-weight: bold;
+    text-indent: 0;
+}
+
+#footer-follow {
+    margin: 0 auto;
+    width: 220px;
+}
+
+.footer-follow-element {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../blog/img/social.png');
+    background-size: 160px 60px;
+    transition: 1s;
+    display: inline-block;
+    border-bottom: none;
+    &:hover {
+        background-color: #DB6968;
+        border-radius: 50%;
+    }
+}

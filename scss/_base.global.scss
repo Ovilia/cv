@@ -1,12 +1,18 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
-body {
+.section {
     background-color: $clr-primary;
-    overflow-x: hidden;
-    position: relative;
-    height: 2000px;
+    color: $clr-lighter;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearboth {
+    clear: both;
 }

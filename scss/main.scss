@@ -1,6 +1,10 @@
 @import "settings.colors";
 @import "settings.fonts";
+@import "settings.links";
+@import "settings.text";
 
 @import "base.global";
 
-@import "components.paper";
+@import "components.image";
+@import "components.columns";
+@import "components.social";

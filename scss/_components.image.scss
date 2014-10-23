@@ -1,0 +1,26 @@
+$avatar-r: 180px;
+
+#avatar {
+    width: $avatar-r;
+    height: $avatar-r;
+    border-radius: $avatar-r / 2;
+    border: 10px solid $clr-light;
+}
+
+.circle-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $clr-dark;
+    padding: 18px;
+    
+    &:hover {
+        background-color: $clr-contrast;
+    }
+}
+@media screen and (max-width: 760px) {
+    .circle-img {
+        display: none;
+    }
+}

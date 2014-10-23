@@ -1,9 +1,9 @@
 $clr-primary:          #22C3AA;  // green
 $clr-light:            #AEE2D9;  // light green
 $clr-lighter:          #EEF3F0;  // lighter green
-$clr-dark:             #157A6B;  // dark green
-$clr-contrast:         #DB6968;  // red
-$clr-contrast-dark:    #BB5A59;  // dark red
+$clr-dark:             #008A75;  // dark green
+$clr-darker:           #096254;  // darker green
+$clr-contrast:         #FFCC33;  // orange
 $clr-def:              #666;
 $clr-def-light:        #CCC;
 $clr-def-lighter:      #EFEFEF;
@@ -25,9 +25,9 @@ $clr-page-footer-back: $clr-def-darkest;
 
 
 // Links
-$clr-link:          $clr-contrast;
+$clr-link:          $clr-dark;
 $clr-link--active:  $clr-def;
-$clr-link--hover:   $clr-contrast-dark;
+$clr-link--hover:   $clr-contrast;
 $clr-link--visited: $clr-def;
 
 
