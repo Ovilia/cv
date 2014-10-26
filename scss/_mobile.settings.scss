@@ -1,0 +1,30 @@
+.mobile {
+    #avatar {
+        width: 128px;
+        height: 128px;
+    }
+    
+    .circle-img {
+        margin: 20px 10px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    @for $i from 1 through 6 {
+        h#{$i} { 
+            font-size: nth($ft-sz, $i) * 0.75;
+            margin: 0 0 nth($ft-mg, $i) 0;
+            margin-top: 0;
+        }
+    }
+    
+    p {
+        font-size: $ft-sz-def * 0.8;
+    }
+    
+    ul {
+        font-size: $ft-sz-def * 0.8;
+    }
+}

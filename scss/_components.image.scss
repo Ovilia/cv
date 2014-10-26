@@ -3,7 +3,7 @@ $avatar-r: 256px;
 #avatar {
     width: $avatar-r;
     height: $avatar-r;
-    border-radius: $avatar-r / 2;
+    border-radius: 50%;
     border: 10px solid $clr-light;
 }
 
@@ -19,8 +19,9 @@ $avatar-r: 256px;
         background-color: $clr-contrast;
     }
 }
-@media screen and (max-width: 760px) {
+/*@media screen and (max-width: 760px) {
     .circle-img {
         display: none;
     }
 }
+*/
