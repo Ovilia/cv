@@ -15,3 +15,25 @@ a {
         }
     }
 }
+
+#lang-panel {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: $clr-dark;
+    
+    .lang {
+        display: inline-block;
+        border-radius: 5px;
+        padding: 3px 10px;
+        color: $clr-light;
+        
+        &.selected {
+            background-color: $clr-light;
+            color: $clr-dark;
+            cursor: default;
+        }
+    }
+}
