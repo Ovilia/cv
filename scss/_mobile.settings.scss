@@ -1,7 +1,12 @@
 .mobile {
+    * {
+        text-shadow: none !important;
+    }
+    
     #avatar {
         width: 128px;
         height: 128px;
+        border: 0;
     }
     
     .circle-img {
@@ -30,5 +35,9 @@
     
     .section {
         padding: 50px 10px;
+    }
+    
+    #profession.section.center {
+        text-align: left;
     }
 }
