@@ -3,8 +3,12 @@ $avatar-r: 256px;
 #avatar {
     width: $avatar-r;
     height: $avatar-r;
-    border-radius: 50%;
     border: 10px solid $clr-light;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
 }
 
 .circle-img {
