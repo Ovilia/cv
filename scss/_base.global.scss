@@ -7,6 +7,10 @@
     color: $clr-lighter;
     padding: 50px;
     transition: 0.5s;
+
+    &.initing {
+        display: none;
+    }
 }
 
 .center {

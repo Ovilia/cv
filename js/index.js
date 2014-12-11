@@ -8,6 +8,7 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
     } else {
+        $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
             loopBottom: true,
             navigation: {
@@ -25,5 +26,6 @@ $(document).ready(function() {
                 }
             }
         });
+        $('.initing').removeClass('initing');
     }
 });
