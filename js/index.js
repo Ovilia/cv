@@ -13,7 +13,7 @@ $(document).ready(function() {
             loopBottom: true,
             navigation: {
                 'position': 'left',
-                'tooltips': ['Home', 'Projects', 'Professions', 'Education', 'Jobs Preferred', 'Contact Me']
+                'tooltips': ['Home', 'Projects', 'Professions', 'Education', 'Internship', 'Jobs Preferred', 'Contact Me']
             },
             onLeave: function(index, nextIndex, direction) {
                 var $pages = $('.section');
