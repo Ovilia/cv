@@ -11,6 +11,10 @@
     &.initing {
         display: none;
     }
+
+    &.leaving {
+        background-color: $clr-contrast;
+    }
 }
 
 .center {

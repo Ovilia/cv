@@ -22,13 +22,12 @@ a {
     top: 20px;
     border-radius: 5px;
     z-index: 100;
-    background-color: $clr-dark;
+    font-size: $ft-sz-smer;
     
     .lang {
         display: inline-block;
         border-radius: 5px;
-        padding: 3px 10px;
-        color: $clr-light;
+        padding: 2px 8px;
         
         &.selected {
             background-color: $clr-light;

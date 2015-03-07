@@ -19,9 +19,9 @@ $(document).ready(function() {
                 var $pages = $('.section');
                 for (var i = 0; i < $pages.length; ++i) {
                     if (i + 1 !== nextIndex) {
-                        $($pages[i]).css('background-color', '#FFCC33');
+                        $($pages[i]).addClass('leaving');
                     } else {
-                        $($pages[i]).css('background-color', '#22C3AA');
+                        $($pages[i]).removeClass('leaving');
                     }
                 }
             }
