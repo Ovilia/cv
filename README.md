@@ -1,13 +1,30 @@
-cv
-==
+# CV of Wenli Zhang
 
-Wenli Zhang's Curriculum Vitae
+#### Web Front-End Engineer
 
 ![](https://raw.githubusercontent.com/Ovilia/cv/gh-pages/img/cv.png)
 
+Designed and Implemented by Wenli Zhang
+
+### Online Version
+
+Third-party library: [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js)
+
+Tools: SCSS, bower, gulp
+
+### PDF Version
+
+Source: [InDesign Source File](https://raw.githubusercontent.com/Ovilia/cv/gh-pages/res/cv.indd)
+
+Tools: InDesign
+
+### About Permission
+
+The project is open-sourced under MIT license. You can use either Online or PDF version without an explicit statement or link to this project. But since my CV got quite popular recently, it's recommended that you do so for your own convenience.
 
 
-### License
+
+## License
 
 The MIT License (MIT)
 
