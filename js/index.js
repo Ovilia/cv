@@ -9,8 +9,8 @@ $(document).ready(function() {
         $('html').addClass('mobile');
     } else {
         var en = ['Home', 'Projects', 'Professions', 'Education',
-                'Internship', 'Jobs Preferred', 'Contact Me'];
-        var cn = ['首页', '项目', '技能', '教育', '实习', '求职', '联系'];
+                'Internship', 'Current Position', 'Contact Me'];
+        var cn = ['首页', '项目', '技能', '教育', '实习', '供职', '联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
         $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
